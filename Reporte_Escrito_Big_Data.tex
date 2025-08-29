@@ -1,0 +1,95 @@
+% !TeX root = Reporte_Escrito_Big_Data.tex
+
+
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath, amssymb}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{hyperref}
+
+
+% Configuración de márgenes
+\geometry{a4paper, margin=1in}
+
+% Configuración de bloques de código
+\lstset{
+    backgroundcolor=\color{gray!10},
+    basicstyle=\ttfamily\footnotesize,
+    frame=single,
+    breaklines=true,
+    keywordstyle=\color{blue},
+    commentstyle=\color{green!50!black},
+    stringstyle=\color{red}
+}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Universidad de La Sabana}}\\
+    \vspace{0.2cm}
+    {\large Maestría en Analítica Aplicada}\\
+    \vspace{3cm}
+    {\LARGE \textbf{Taller 2: Contenerización con Docker y PostgreSQL}}\\
+    \vspace{3cm}
+    Esteban Bernal - Informatics Engineering - 271938\\
+    Juan Montes - Informatics Engineering - 272113\\
+    Juan Gómez - Informatics Engineering - 286774\\
+    \vfill
+    Profesor: Hugo Franco, Ph.D. \\
+    Herramientas de Big Data \\
+    \vspace{1cm}
+\end{center}
+
+\newpage
+
+\section{Problema}
+El objetivo de este taller fue contenerizar una base de datos \textbf{PostgreSQL} usando \textbf{Docker}, cargar datos de población, esperanza de vida y PIB per cápita, y realizar consultas y comparaciones de rendimiento entre inserción fila por fila (INSERT) y carga masiva (COPY).
+
+\section{Método de solución}
+La solución se abordó mediante:
+\begin{itemize}
+    \item Creación de un contenedor Docker con PostgreSQL mediante \texttt{docker-compose}.
+    \item Desarrollo de un script en Python para cargar y transformar los datos.
+    \item Inserción de datos en la base usando dos métodos distintos: INSERT y COPY.
+    \item Ejecución de consultas SQL de análisis comparativo.
+\end{itemize}
+
+\subsection{Algoritmo propuesto}
+\begin{lstlisting}[language=Python, caption=Fragmento del código en Python]
+conn = psycopg2.connect(
+    host="localhost",
+    port=5433,
+    database="bigdatatools1",
+    user="psqluser",
+    password="psqlpass"
+)
+\end{lstlisting}
+
+\section{Resultados}
+Se obtuvieron los siguientes tiempos de ejecución:
+\begin{itemize}
+    \item \textbf{INSERT fila por fila:} 15.7 segundos
+    \item \textbf{COPY en bloque:} 0.17 segundos
+\end{itemize}
+
+La diferencia muestra que COPY es considerablemente más eficiente para cargas masivas.
+
+\section{Discusión}
+Los resultados permiten concluir:
+\begin{itemize}
+    \item COPY es el método recomendado para carga inicial de grandes volúmenes.
+    \item El uso de Docker facilita la portabilidad del entorno de base de datos.
+    \item PostgreSQL combinado con Python y Pandas permite integrar análisis avanzados de datos.
+\end{itemize}
+
+\section*{Referencias}
+\begin{itemize}
+    \item Documentación oficial de PostgreSQL: \url{https://www.postgresql.org/docs/}
+    \item Psycopg2: \url{https://www.psycopg.org/}
+    \item Pandas: \url{https://pandas.pydata.org/}
+\end{itemize}
+
+\end{document}

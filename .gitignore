@@ -1,0 +1,32 @@
+# Archivos auxiliares de LaTeX
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.lof
+*.lot
+
+# Archivos intermedios de VS Code LaTeX Workshop
+*.synctex(busy)
+*.synctex.gz(busy)
+
+# Archivos generados automáticamente por compiladores
+*.pdfsync
+*.pdf_tex
+
+# Copias de seguridad
+*~
+*.bak
+*.sav
+*.backup
