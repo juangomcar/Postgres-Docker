@@ -1,4 +1,4 @@
-# Entrega Primer Taller - Herramientas de Big Data
+# Entrega Segundo Taller - Herramientas de Big Data
 
 *Integrantes:*
 - Esteban Bernal Cortes
@@ -17,4 +17,4 @@
 
 ---
 
-Este repositorio corresponde a la entrega del *Segundo Taller de la asignatura Herramientas de Big Data*.
+Este repositorio corresponde a la entrega del *Segundo Taller de la asignatura Herramientas de Big Data*
