@@ -1,0 +1,220 @@
+Country Code;continent;bloc
+EUU;Aggregate;
+WLD;Aggregate;
+AFG;Asia;SAARC
+ALB;Europe;
+DZA;Africa;AU
+ASM;Oceania;
+AND;Europe;
+AGO;Africa;AU
+ATG;North America;CARICOM
+ARG;South America;MERCOSUR
+ARM;Asia;CIS
+ABW;North America;
+AUS;Oceania;Commonwealth
+AUT;Europe;EURO_ZONE
+AZE;Asia;CIS
+BAH;North America;CARICOM
+BHR;Asia;GCC
+BGD;Asia;SAARC
+BRB;North America;CARICOM
+BLR;Europe;CIS
+BEL;Europe;EURO_ZONE
+BLZ;North America;CARICOM
+BEN;Africa;ECOWAS
+BMU;North America;
+BTN;Asia;SAARC
+BOL;South America;ANDEAN_PACT
+BIH;Europe;
+BWA;Africa;Commonwealth
+BRA;South America;BRICS
+VGB;North America;
+BRN;Asia;ASEAN
+BGR;Europe;EU
+BFA;Africa;ECOWAS
+BDI;Africa;AU
+CPV;Africa;ECOWAS
+KHM;Asia;ASEAN
+CMR;Africa;Commonwealth
+CAN;North America;USMCA
+CYM;North America;
+CAF;Africa;AU
+TCD;Africa;AU
+CHI;Unknown;
+CHL;South America;APEC
+CHN;Asia;BRICS
+COL;South America;ANDEAN_PACT
+COM;Africa;AU
+NKR;Asia;
+KOR;Asia;
+CRI;North America;
+CIV;Africa;ECOWAS
+HRV;Europe;EURO_ZONE
+CUB;North America;
+CUW;North America;
+CYP;Asia;EURO_ZONE
+CZE;Europe;EU
+DNK;Europe;EU
+DJI;Africa;AU
+DMA;North America;CARICOM
+DOM;North America;
+ECU;South America;ANDEAN_PACT
+EGY;Africa;AU
+SLV;North America;
+GNQ;Africa;AU
+ERI;Africa;AU
+EST;Europe;EURO_ZONE
+SWZ;Africa;Commonwealth
+ETH;Africa;BRICS
+FRO;Europe;
+FJI;Oceania;Commonwealth
+FIN;Europe;EURO_ZONE
+FRA;Europe;EURO_ZONE
+PYF;Oceania;
+GAB;Africa;Commonwealth
+GMB;Africa;ECOWAS
+GEO;Asia;
+DEU;Europe;EURO_ZONE
+GHA;Africa;ECOWAS
+GIB;Europe;
+GRC;Europe;EURO_ZONE
+GRL;North America;
+GRD;North America;CARICOM
+GUM;Oceania;
+GTM;North America;
+GIN;Africa;ECOWAS
+GNB;Africa;ECOWAS
+GUY;South America;CARICOM
+HTI;North America;CARICOM
+HND;North America;
+HKN;Asia;
+HUN;Europe;EU
+ISL;Europe;
+IND;Asia;BRICS
+IDN;Asia;ASEAN
+IRN;Asia;BRICS
+IRQ;Asia;
+IRL;Europe;EURO_ZONE
+IMN;Europe;
+ISR;Asia;
+ITA;Europe;EURO_ZONE
+JAM;North America;CARICOM
+JPN;Asia;APEC
+JOR;Asia;
+KAZ;Asia;CIS
+KEN;Africa;Commonwealth
+KIR;Oceania;Commonwealth
+CON;Africa;AU
+RDC;Africa;AU
+XKX;Unknown;
+KWT;Asia;GCC
+KGZ;Asia;CIS
+LAO;Asia;ASEAN
+LVA;Europe;EURO_ZONE
+LBN;Asia;
+LSO;Africa;Commonwealth
+LBR;Africa;ECOWAS
+LBY;Africa;AU
+LIE;Europe;
+LTU;Europe;EURO_ZONE
+LUX;Europe;EURO_ZONE
+ MAC;Asia;
+MDG;Africa;AU
+MWI;Africa;Commonwealth
+MYS;Asia;ASEAN
+MDV;Asia;SAARC
+MLI;Africa;ECOWAS
+MLT;Europe;EURO_ZONE
+MHL;Oceania;
+MRT;Africa;AU
+MUS;Africa;Commonwealth
+MEX;North America;USMCA
+ Fed. Sts.;Unknown;
+MDA;Europe;CIS
+MCO;Europe;
+MNG;Asia;
+MNE;Europe;
+MAR;Africa;AU
+MOZ;Africa;Commonwealth
+MMR;Asia;ASEAN
+NAM;Africa;Commonwealth
+NRU;Oceania;Commonwealth
+NPL;Asia;SAARC
+NLD;Europe;EURO_ZONE
+NCL;Oceania;
+NZL;Oceania;Commonwealth
+NIC;North America;
+NER;Africa;ECOWAS
+NGA;Africa;ECOWAS
+MKD;Europe;
+MNP;Oceania;
+NOR;Europe;
+OMN;Asia;GCC
+PAK;Asia;SAARC
+PLW;Oceania;
+PAN;North America;
+PNG;Oceania;Commonwealth
+PRY;South America;MERCOSUR
+PER;South America;ANDEAN_PACT
+PHL;Asia;ASEAN
+POL;Europe;EU
+PRT;Europe;EURO_ZONE
+PRI;North America;
+QAT;Asia;GCC
+ROU;Europe;EU
+RUS;Europe;BRICS
+RWA;Africa;Commonwealth
+WSM;Oceania;Commonwealth
+SMR;Europe;
+STP;Africa;AU
+SAU;Asia;BRICS
+SEN;Africa;ECOWAS
+SRB;Europe;
+SYC;Africa;Commonwealth
+SLE;Africa;ECOWAS
+SGP;Asia;ASEAN
+SXM;Unknown;
+SVK;Europe;EURO_ZONE
+SVN;Europe;EURO_ZONE
+SLB;Oceania;Commonwealth
+SOM;Africa;AU
+ZAF;Africa;BRICS
+SSD;Africa;AU
+ESP;Europe;EURO_ZONE
+LKA;Asia;SAARC
+KNA;North America;CARICOM
+LCA;North America;CARICOM
+MAF;North America;
+VCT;North America;CARICOM
+SDN;Africa;AU
+SUR;South America;CARICOM
+SWE;Europe;EU
+CHE;Europe;
+SYR;Asia;
+TJK;Asia;CIS
+TZA;Africa;Commonwealth
+THA;Asia;ASEAN
+TLS;Unknown;
+TGO;Africa;ECOWAS
+TON;Oceania;Commonwealth
+TTO;North America;CARICOM
+TUN;Africa;AU
+TUR;Asia;
+TKM;Asia;
+TCA;North America;
+TUV;Oceania;Commonwealth
+UGA;Africa;Commonwealth
+UKR;Europe;
+ARE;Asia;BRICS
+GBR;Europe;Commonwealth
+USA;North America;USMCA
+URY;South America;MERCOSUR
+UZB;Asia;CIS
+VUT;Oceania;Commonwealth
+ RB;Unknown;
+VNM;Asia;ASEAN
+VIR;North America;
+PSE;Asia;
+ Rep.;Unknown;
+ZMB;Africa;Commonwealth
+ZWE;Africa;AU
